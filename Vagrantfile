@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
       # via the IP. Host-only networks can talk to the host machine as well as
       # any other machines on the same network, but cannot be accessed (through this
       # network interface) by any external networks.
-      master_config.vm.network :private_network, ip: "192.168.33.10"
+      master_config.vm.network :private_network, ip: "192.168.94.10"
         
       # Share an additional folder to the guest VM. The first argument is
       # an identifier, the second is the path on the guest to mount the
